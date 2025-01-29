@@ -1,0 +1,38 @@
+input {
+  color: black;
+  background-color: rgb(38, 141, 124);
+  display: flex;
+}
+
+input[type="text"]::placeholder {
+  color: #f7f0f0;
+}
+
+input:hover {
+  background-color: rgb(13, 14, 13);
+  box-shadow: 2px 2px 5px red;
+}
+
+.border {
+  border: 20px dotted #b61313;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 200px;
+  background-color: rgb(15, 148, 104);
+  padding: 10px;
+  box-shadow: 2px 2px 5px white;
+}
+
+li:hover {
+  background-color: black;
+  box-shadow: 2px 2px 5px red;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+}
